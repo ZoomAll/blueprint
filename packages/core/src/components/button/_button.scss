@@ -97,13 +97,14 @@ Styleguide button
     }
   }
 
-  // icons
-  &[class*="#{$ns}-icon-"] {
-    &::before {
-      @include pt-icon();
-      color: $pt-icon-color;
-    }
-  }
+  // DWFE=
+  //// icons
+  //&[class*="#{$ns}-icon-"] {
+  //  &::before {
+  //    @include pt-icon();
+  //    color: $pt-icon-color;
+  //  }
+  //}
 
   #{$icon-classes} {
     color: $pt-icon-color;

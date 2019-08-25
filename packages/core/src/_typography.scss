@@ -174,9 +174,10 @@ Styleguide running-text
     @extend %code-block;
   }
 
-  table {
-    @extend %html-table;
-  }
+  // DWFE=
+  //table {
+  //  @extend %html-table;
+  //}
 
   ul,
   ol {

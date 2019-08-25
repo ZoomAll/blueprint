@@ -72,9 +72,9 @@ span.#{$ns}-icon-large {
 //    @include pt-icon-font-smoothing();
 //  }
 //}
-
-@each $name, $content in $icons {
-  .#{$ns}-icon-#{$name}::before {
-    content: $content;
-  }
-}
+//
+//@each $name, $content in $icons {
+//  .#{$ns}-icon-#{$name}::before {
+//    content: $content;
+//  }
+//}
