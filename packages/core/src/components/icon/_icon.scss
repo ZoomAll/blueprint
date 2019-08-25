@@ -59,18 +59,19 @@ span.#{$ns}-icon-large {
   display: inline-block;
 }
 
-// only apply icon font styles when <svg> image is not present
-span.#{$ns}-icon:empty {
-  line-height: 1;
-  font-family: $icons20-family;
-  font-size: inherit;
-  font-weight: 400;
-  font-style: normal;
-
-  &::before {
-    @include pt-icon-font-smoothing();
-  }
-}
+// DWFE=
+//// only apply icon font styles when <svg> image is not present
+//span.#{$ns}-icon:empty {
+//  line-height: 1;
+//  font-family: $icons20-family;
+//  font-size: inherit;
+//  font-weight: 400;
+//  font-style: normal;
+//
+//  &::before {
+//    @include pt-icon-font-smoothing();
+//  }
+//}
 
 @each $name, $content in $icons {
   .#{$ns}-icon-#{$name}::before {
